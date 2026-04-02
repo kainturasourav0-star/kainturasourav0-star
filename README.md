@@ -1,16 +1,25 @@
-## Hi there 👋
+# 👋 Hi, I'm [Sourav]
 
-<!--
-**kainturasourav0-star/kainturasourav0-star** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🎓 BCA Student at IGNOU
+- 🏫 Currently pursuing **BCA** (Indira Gandhi National Open University).
+- 🧠 Interested in **Computer Science**, **AI**, and **Automation**.
+- 🚀 Goal: To build AI-driven solutions that solve real-world problems.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠 Tech Stack
+- **Languages:** ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white)
+- **AI/Automation:** `Selenium`, `OpenAI API`, `Pandas`, `Web Scraping`.
+- **Learning:** Machine Learning (ML) and Neural Networks.
+
+---
+
+### 🚀 Featured Projects
+- 🤖 **AI Automation:** [Briefly describe a script you've made, e.g., Automated Emailer].
+- 📚 **IGNOU Coursework:** Documenting my BCA practicals and Lab assignments.
+
+---
+
+### 📈 GitHub Stats
+![My Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=dark)
