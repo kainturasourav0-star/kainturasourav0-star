@@ -1,4 +1,4 @@
-# 👋 Hi, I'm [Sourav]
+# 👋 Hi, I'm Sourav
 
 ### 🎓 BCA Student at IGNOU
 - 🏫 Currently pursuing **BCA** (Indira Gandhi National Open University).
