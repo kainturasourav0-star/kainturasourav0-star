@@ -1,25 +1,90 @@
-# 👋 Hi, I'm Sourav
+# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi, I'm Sourav!
 
-### 🎓 BCA Student at IGNOU
-- 🏫 Currently pursuing **BCA** (Indira Gandhi National Open University).
-- 🧠 Interested in **Computer Science**, **AI**, and **Automation**.
-- 🚀 Goal: To build AI-driven solutions that solve real-world problems.
+### 🎓 BCA Student | 💻 Beginner Developer | 🚀 Lifelong Learner
 
----
-
-### 🛠 Tech Stack
-- **Languages:** ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white)
-- **AI/Automation:** `Selenium`, `OpenAI API`, `Pandas`, `Web Scraping`.
-- **Learning:** Machine Learning (ML) and Neural Networks.
+Welcome to my GitHub profile! I'm **Sourav**, a passionate beginner pursuing a **Bachelor of Computer Applications (BCA)**. I enjoy learning new technologies, solving programming problems, and building projects that help me improve my skills.
 
 ---
 
-### 🚀 Featured Projects
-- 🤖 **AI Automation:** [Briefly describe a script you've made, e.g., Automated Emailer].
-- 📚 **IGNOU Coursework:** Documenting my BCA practicals and Lab assignments.
+## 🚀 About Me
+
+* 🎓 Pursuing a Bachelor of Computer Applications (BCA)
+* 🌱 Currently learning Web Development and Python
+* 💻 Love exploring Linux and open-source software
+* 📚 Always learning something new every day
+* 🎯 Goal: Become a skilled Software Developer
+* ⚡ Fun Fact: I enjoy turning ideas into code.
 
 ---
 
-### 📈 GitHub Stats
-![My Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=dark)
+## 💻 Tech Stack
+
+### Languages
+
+* 🐍 Python
+* 🌐 HTML5
+* 🎨 CSS3
+* ⚡ JavaScript
+
+### Operating System
+
+* 🐧 Linux
+
+### Tools
+
+* Visual Studio Code
+* Git
+* GitHub
+* Chrome DevTools
+* Terminal
+
+---
+
+## 📚 Currently Learning
+
+* Data Structures & Algorithms (DSA)
+* Responsive Web Design
+* Git & GitHub
+* Linux Administration
+* Database Management System (DBMS)
+* Object-Oriented Programming (OOP)
+
+---
+
+## 🎯 2026 Goals
+
+* ✅ Build 20+ GitHub Projects
+* ✅ Learn Advanced JavaScript
+* ✅ Master Python Fundamentals
+* ✅ Improve DSA Skills
+* ✅ Contribute to Open Source
+* ✅ Create a Personal Portfolio Website
+
+---
+
+## 📂 Featured Projects
+
+Coming Soon...
+
+I'm currently working on beginner-friendly projects. Stay tuned for exciting updates!
+
+---
+
+
+## 📫 Connect With Me
+
+* GitHub: https://github.com/kainturasourav0-star
+* LinkedIn: https://www.linkedin.com/in/sourav-kaintura
+* Email: kainturasourav30@example.com
+
+---
+
+## 💡 Quote
+
+> **"Success doesn't come from what you know; it comes from what you consistently learn and build."**
+
+---
+
+## ⭐ Thank You!
+
+Thank you for visiting my GitHub profile! If you find any of my repositories helpful, feel free to ⭐ them and follow my journey as I continue learning and building amazing projects.
