@@ -35,12 +35,6 @@
 
 ---
 
-## 🎯 Career Objective
-
-> *A BCA student passionate about learning technology and improving coding skills every day. Currently building real-world projects to gain practical experience, with the goal of growing into a capable full stack developer. Also exploring Cybersecurity as a future specialization.*
-
----
-
 ## 🛠️ Technical Skills
 
 <div align="center">
@@ -70,32 +64,6 @@
 📌 Cybersecurity Basics & Ethical Hacking
 📌 Linux Administration & Bash Scripting
 ```
-
-</div>
-
----
-
-## 💪 Strengths
-
-<div align="center">
-
-| 🌟 Strength | 💬 Details |
-|:------------|:-----------|
-| **Quick Learner** | Strong willingness to learn and improve every day |
-| **Open to Feedback** | Comfortable picking up new tools and technologies |
-| **Consistent** | Sincere, disciplined, and consistent in completing tasks |
-| **Team Player** | Good communication and ability to work well in a team |
-
-</div>
-
----
-
-## 🌐 Languages
-
-<div align="center">
-
-![English](https://img.shields.io/badge/English-Fluent-2196F3?style=for-the-badge&logo=googletranslate&logoColor=white)
-![Hindi](https://img.shields.io/badge/Hindi-Native-FF9800?style=for-the-badge&logo=googletranslate&logoColor=white)
 
 </div>
 
@@ -173,8 +141,12 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:533483,50:0f3460,100:1a1a2e&height=120&section=footer&text=Open+to+Opportunities+%F0%9F%9A%80&fontSize=22&fontColor=a0c4ff&fontAlignY=65&animation=twinkling" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=16&pause=2000&color=A0C4FF&center=true&vCenter=true&width=600&height=40&lines=Thanks+for+visiting+my+profile!+%F0%9F%99%8F;Feel+free+to+star+%E2%AD%90+my+repos!;Let%27s+connect+and+build+something+great+%F0%9F%9A%80" />
 
-> *"Success doesn't come from what you do occasionally, it comes from what you do consistently."*
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1a2e,50:0f3460,100:533483&height=3&section=footer" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:533483,30:0f3460,70:16213e,100:1a1a2e&height=150&section=footer&text=Open+to+Opportunities+%F0%9F%9A%80&fontSize=26&fontColor=a0c4ff&fontAlignY=65&animation=twinkling" />
 
 </div>
