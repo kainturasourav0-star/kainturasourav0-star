@@ -140,3 +140,5 @@ me.say_hi()
 ⭐ **If you like my work, star my repos and follow my journey!** ⭐
 
 </div>
+
+<!-- v2: enhanced layout with improved badges -->
