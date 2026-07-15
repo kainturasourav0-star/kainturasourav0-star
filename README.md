@@ -12,11 +12,25 @@
 
 <div align="center">
 
-[![GitHub followers](https://img.shields.io/github/followers/kainturasourav0-star?label=Followers&style=for-the-badge&color=a0c4ff&labelColor=1a1a2e&logo=github)](https://github.com/kainturasourav0-star)
-[![Profile Views](https://komarev.com/ghpvc/?username=kainturasourav0-star&style=for-the-badge&color=a0c4ff&labelColor=1a1a2e&label=Profile+Views)](https://github.com/kainturasourav0-star)
-[![Email](https://img.shields.io/badge/Gmail-kainturasourav0%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e)](mailto:kainturasourav0@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a2e)](https://www.linkedin.com/in/sourav-kaintura)
+<a href="https://github.com/kainturasourav0-star">
+  <img src="https://img.shields.io/github/followers/kainturasourav0-star?label=Followers&style=for-the-badge&color=a0c4ff&labelColor=1a1a2e&logo=github" />
+</a>
+<a href="https://komarev.com/ghpvc/?username=kainturasourav0-star">
+  <img src="https://komarev.com/ghpvc/?username=kainturasourav0-star&style=for-the-badge&color=a0c4ff&labelColor=1a1a2e&label=Profile+Views" />
+</a>
+<a href="https://www.linkedin.com/in/sourav-kaintura">
+  <img src="https://img.shields.io/badge/LinkedIn-Sourav_Kaintura-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a2e" />
+</a>
+<a href="mailto:kainturasourav0@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-kainturasourav0%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e" />
+</a>
 
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
 
 ---
@@ -90,19 +104,6 @@
 
 ---
 
-## 🧩 Soft Skills
-
-<div align="center">
-
-![Adaptability](https://img.shields.io/badge/Adaptability-Comfortable_adjusting_to_new_tools-0f3460?style=for-the-badge)
-![Time Management](https://img.shields.io/badge/Time_Management-Plans_%26_meets_deadlines-16213e?style=for-the-badge)
-![Curiosity](https://img.shields.io/badge/Curiosity-Loves_exploring_how_things_work-533483?style=for-the-badge)
-![Teamwork](https://img.shields.io/badge/Teamwork-Values_shared_learning-1a1a2e?style=for-the-badge)
-
-</div>
-
----
-
 ## 🌐 Languages
 
 <div align="center">
@@ -171,16 +172,13 @@
 
 ---
 
-## 📬 Contact
+## 📬 Connect With Me
 
 <div align="center">
 
-| 📍 Location | 📞 Phone | 📧 Email |
-|:-----------:|:--------:|:--------:|
-| Delhi, India | +91 9211749561 | kainturasourav0@gmail.com |
-
 [![GitHub](https://img.shields.io/badge/GitHub-kainturasourav0--star-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e)](https://github.com/kainturasourav0-star)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sourav_Kaintura-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a2e)](https://www.linkedin.com/in/sourav-kaintura)
+[![Discord](https://img.shields.io/badge/Discord-Join_Me-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1a2e)](https://discord.com)
 [![Email](https://img.shields.io/badge/Email-kainturasourav0%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e)](mailto:kainturasourav0@gmail.com)
 
 </div>
