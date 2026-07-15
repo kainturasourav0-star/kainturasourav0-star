@@ -1,95 +1,131 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a1a2e,100:16213e&height=200&section=header&text=Sourav%20Kaintura&fontSize=60&fontColor=00ff41&fontAlignY=38&desc=Cybersecurity%20Learner%20%7C%20Builder%20%7C%20BCA%20Student&descAlignY=60&descColor=ffffff&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,30:16213e,70:0f3460,100:533483&height=220&section=header&text=Sourav%20Kaintura&fontSize=65&fontColor=ffffff&fontAlignY=40&desc=Aspiring%20Software%20Developer%20%7C%20BCA%20Student%20%7C%20Delhi%2C%20India&descAlignY=62&descColor=a0c4ff&animation=fadeIn&fontAlign=50" />
 
-<br/>
+</div>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00FF41&background=00000000&center=true&vCenter=true&multiline=false&random=false&width=700&height=60&lines=%F0%9F%94%90+Learning+Ethical+Hacking+%26+Security;%F0%9F%95%B5%EF%B8%8F+CTF+Player+%7C+Security+Researcher;%F0%9F%92%BB+BCA+Student+%7C+Code+%7C+Break+%7C+Fix+%7C+Repeat;%F0%9F%8C%90+Web+Dev+%7C+Open+Source+Contributor;%F0%9F%9A%80+Building+Cool+Projects+Every+Day" alt="Typing SVG" />
+<div align="center">
 
-<br/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=A0C4FF&background=00000000&center=true&vCenter=true&width=700&height=50&lines=Learning+%26+Building+Every+Single+Day+%F0%9F%9A%80;BCA+%40+IGNOU+%7C+2025+%E2%80%94+2028+%F0%9F%8E%93;Python+%7C+JavaScript+%7C+HTML+%7C+CSS+%7C+Linux;Exploring+Cybersecurity+%26+Full+Stack+Dev+%F0%9F%94%90;Open+to+Feedback+%7C+Consistent+%7C+Curious+%F0%9F%94%8D" alt="Typing SVG" />
 
-[![GitHub followers](https://img.shields.io/github/followers/kainturasourav0-star?label=Followers&style=for-the-badge&color=00ff41&labelColor=0d0d0d&logo=github)](https://github.com/kainturasourav0-star)
-[![Profile Views](https://komarev.com/ghpvc/?username=kainturasourav0-star&style=for-the-badge&color=00ff41&labelColor=0d0d0d&label=Profile+Views)](https://github.com/kainturasourav0-star)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0d0d)](https://www.linkedin.com/in/sourav-kaintura)
+</div>
+
+<div align="center">
+
+[![GitHub followers](https://img.shields.io/github/followers/kainturasourav0-star?label=Followers&style=for-the-badge&color=a0c4ff&labelColor=1a1a2e&logo=github)](https://github.com/kainturasourav0-star)
+[![Profile Views](https://komarev.com/ghpvc/?username=kainturasourav0-star&style=for-the-badge&color=a0c4ff&labelColor=1a1a2e&label=Profile+Views)](https://github.com/kainturasourav0-star)
+[![Email](https://img.shields.io/badge/Gmail-kainturasourav0%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e)](mailto:kainturasourav0@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a2e)](https://www.linkedin.com/in/sourav-kaintura)
 
 </div>
 
 ---
 
-## 👾 About Me
+## 🎯 Career Objective
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/Potential17/Potential17/master/user%20(2).gif" width="340" alt="Hacker at work" />
-</div>
-
-<br/>
-
-```bash
-┌──(sourav㉿kaintura)-[~/life]
-└─$ whoami
-
-  Name     : Sourav Kaintura
-  Role     : BCA Student | Security Learner
-  Location : India 🇮🇳
-  Focus    : Cybersecurity + Web Dev
-  Status   : Learning & Building 24/7
-  Goal     : Become an Elite Security Engineer
-
-┌──(sourav㉿kaintura)-[~/skills]
-└─$ cat current_path.txt
-
-  🔐 Ethical Hacking Basics
-  🕵️ Web Application Security
-  🌐 Networking Fundamentals
-  💻 Linux & Terminal Power User
-  🛡️ Security Tools (Nmap, Burp, etc.)
-  🔍 CTF (Capture The Flag) Challenges
-```
+> *A beginner in programming and BCA student who is passionate about learning technology and improving coding skills every day. Currently building small projects to gain practical experience, with the goal of growing into a capable full stack developer through hands-on learning and real-world exposure. Also exploring Cybersecurity as a future specialization.*
 
 ---
 
-## 🔐 Cybersecurity Arsenal
+## 🎓 Education
 
 <div align="center">
 
-**Currently Learning**
-
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burp-suite&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4B8BBE?style=for-the-badge&logo=nmap&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596be?style=for-the-badge&logo=metasploit&logoColor=white)
-
-**Platforms & Topics**
-
-![OWASP](https://img.shields.io/badge/OWASP_Top_10-000000?style=for-the-badge&logo=owasp&logoColor=white)
-![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)
-![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)
-![CTF](https://img.shields.io/badge/CTF_Challenges-FF0000?style=for-the-badge&logo=hackster&logoColor=white)
+| 🏫 Qualification | 🏛️ Institution | 📅 Year |
+|:-----------------|:---------------|:-------:|
+| **Bachelor of Computer Applications (BCA)** | IGNOU *(Indira Gandhi National Open University)* — Pursuing | 2025 – 2028 |
+| **Class 12th** *(Senior Secondary)* | Sarvodaya Bal Vidyalaya, Delhi | Completed |
+| **Class 10th** *(Secondary)* | Sarvodaya Bal Vidyalaya, Delhi | Completed |
 
 </div>
 
 ---
 
-## 🛠️ Dev Stack
+## 🛠️ Technical Skills
 
 <div align="center">
-
-**Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**Tools & OS**
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+</div>
+
+---
+
+## 📚 Currently Learning
+
+<div align="center">
+
+```
+📌 Data Structures & Algorithms (DSA)
+📌 Object-Oriented Programming (OOP)
+📌 Database Management Systems (DBMS)
+📌 Responsive Web Design
+📌 Cybersecurity Basics & Ethical Hacking
+📌 Linux Administration & Bash Scripting
+```
+
+</div>
+
+---
+
+## 💪 Strengths
+
+<div align="center">
+
+| 🌟 Strength | 💬 Details |
+|:------------|:-----------|
+| **Quick Learner** | Strong willingness to learn and improve every day |
+| **Open to Feedback** | Comfortable picking up new tools and technologies |
+| **Consistent** | Sincere, disciplined, and consistent in completing tasks |
+| **Team Player** | Good communication and ability to work well in a team |
+
+</div>
+
+---
+
+## 🧩 Soft Skills
+
+<div align="center">
+
+![Adaptability](https://img.shields.io/badge/Adaptability-Comfortable_adjusting_to_new_tools-0f3460?style=for-the-badge)
+![Time Management](https://img.shields.io/badge/Time_Management-Plans_%26_meets_deadlines-16213e?style=for-the-badge)
+![Curiosity](https://img.shields.io/badge/Curiosity-Loves_exploring_how_things_work-533483?style=for-the-badge)
+![Teamwork](https://img.shields.io/badge/Teamwork-Values_shared_learning-1a1a2e?style=for-the-badge)
+
+</div>
+
+---
+
+## 🌐 Languages
+
+<div align="center">
+
+![English](https://img.shields.io/badge/English-Fluent-2196F3?style=for-the-badge&logo=googletranslate&logoColor=white)
+![Hindi](https://img.shields.io/badge/Hindi-Native-FF9800?style=for-the-badge&logo=googletranslate&logoColor=white)
+
+</div>
+
+---
+
+## 🏗️ Projects
+
+<div align="center">
+
+| 🔒 Project | 💬 Description | 🔗 Live |
+|:-----------|:---------------|:-------:|
+| 🔍 **[Terminal Lens](https://github.com/kainturasourav0-star/terminal-lens)** | AI-powered terminal monitoring dashboard | [▶](https://terminal-lens.vercel.app) |
+| 🏗️ **[Project Architect](https://github.com/kainturasourav0-star/Project-Architect)** | Automated security pipeline — flowcharts → exploits | [▶](https://projectarchitect.vercel.app/) |
+| 👁️ **[BiasWatch](https://github.com/kainturasourav0-star/biaswatch)** | AI bias detection & monitoring platform | [▶](https://biaswatch.vercel.app) |
+| 🤖 **[AI Detector](https://github.com/kainturasourav0-star/Ai-detector)** | Detect AI-generated text with high accuracy | [▶](https://detector7.vercel.app) |
+| 👻 **[GHOST QA](https://github.com/kainturasourav0-star/GHOST-QA-GENERATIVE)** | Generative AI Q&A system | [▶](https://ghost-qa-generative.vercel.app) |
+| 🔞 **[AgeVerify](https://github.com/kainturasourav0-star/ageverify)** | Privacy-first age verification system | [📂](https://github.com/kainturasourav0-star/ageverify) |
 
 </div>
 
@@ -99,67 +135,53 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=kainturasourav0-star&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d0d0d&title_color=00ff41&icon_color=00ff41&text_color=ffffff&border_radius=10" height="180"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kainturasourav0-star&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d0d0d&title_color=00ff41&text_color=ffffff&border_radius=10" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=kainturasourav0-star&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a1a2e&title_color=a0c4ff&icon_color=a0c4ff&text_color=ffffff&border_radius=10" height="175"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kainturasourav0-star&layout=compact&hide_border=true&bg_color=1a1a2e&title_color=a0c4ff&text_color=ffffff&border_radius=10" height="175"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=kainturasourav0-star&theme=dark&hide_border=true&background=0d0d0d&ring=00ff41&fire=ff6b35&currStreakLabel=00ff41&sideLabels=ffffff&dates=666666&border_radius=10)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=kainturasourav0-star&theme=tokyonight&hide_border=true&background=1a1a2e&ring=a0c4ff&fire=ff6b35&currStreakLabel=a0c4ff&sideLabels=ffffff&dates=888888&border_radius=10)](https://git.io/streak-stats)
 
 </div>
 
 ---
 
-## 🏆 Featured Projects
-
-<div align="center">
-
-| 🔒 Project | 💬 Description | 🔗 Live |
-|:-----------|:---------------|:-------:|
-| 🔍 **[Terminal Lens](https://github.com/kainturasourav0-star/terminal-lens)** | AI-powered terminal monitoring dashboard | [▶](https://terminal-lens.vercel.app) |
-| 🏗️ **[Project Architect](https://github.com/kainturasourav0-star/Project-Architect)** | Automated security pipeline — flowcharts → exploits | [▶](https://projectarchitect.vercel.app/) |
-| 👁️ **[BiasWatch](https://github.com/kainturasourav0-star/biaswatch)** | AI bias detection & monitoring platform | [▶](https://biaswatch.vercel.app) |
-| 🤖 **[AI Detector](https://github.com/kainturasourav0-star/Ai-detector)** | Detect AI-generated text | [▶](https://detector7.vercel.app) |
-| 👻 **[GHOST QA](https://github.com/kainturasourav0-star/GHOST-QA-GENERATIVE)** | Generative AI Q&A system | [▶](https://ghost-qa-generative.vercel.app) |
-| 🔞 **[AgeVerify](https://github.com/kainturasourav0-star/ageverify)** | Privacy-first age verification system | [📂](https://github.com/kainturasourav0-star/ageverify) |
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kainturasourav0-star&theme=react-dark&bg_color=0d0d0d&color=00ff41&line=00ff41&point=ffffff&area_color=00ff4120&area=true&hide_border=true)](https://github.com/kainturasourav0-star)
-
-</div>
-
----
-
-## 🎯 2026 Roadmap
+## 🎯 Goals
 
 ```
-[████████░░] 80%  → Complete TryHackMe Beginner Path
-[██████░░░░] 60%  → Master Linux & Bash Scripting
-[████░░░░░░] 40%  → Learn Web App Pentesting (OWASP)
-[███░░░░░░░] 30%  → Play CTF Competitions
-[██░░░░░░░░] 20%  → Get CompTIA Security+ certified
-[█░░░░░░░░░] 10%  → Contribute to Security Open Source
+✅  Build real-world projects to strengthen practical skills
+🔄  Improve problem-solving and logical thinking ability
+🔄  Learn Full Stack Development (HTML → CSS → JS → Node.js)
+🔄  Explore Cybersecurity and Ethical Hacking
+🔄  Contribute to Open Source projects
+🔄  Land a Software Engineering Internship
 ```
 
 ---
 
-## 🤝 Connect With Me
+## 📈 Contribution Activity
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-kainturasourav0--star-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0d0d)](https://github.com/kainturasourav0-star)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sourav_Kaintura-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0d0d)](https://www.linkedin.com/in/sourav-kaintura)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d0d0d)](mailto:kainturasourav0@gmail.com)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=red&labelColor=0d0d0d)](https://tryhackme.com)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kainturasourav0-star&theme=tokyo-night&bg_color=1a1a2e&color=a0c4ff&line=a0c4ff&point=ffffff&area=true&area_color=a0c4ff20&hide_border=true)](https://github.com/kainturasourav0-star)
+
+</div>
+
+---
+
+## 📬 Contact
+
+<div align="center">
+
+| 📍 Location | 📞 Phone | 📧 Email |
+|:-----------:|:--------:|:--------:|
+| Delhi, India | +91 9211749561 | kainturasourav0@gmail.com |
+
+[![GitHub](https://img.shields.io/badge/GitHub-kainturasourav0--star-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e)](https://github.com/kainturasourav0-star)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sourav_Kaintura-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a2e)](https://www.linkedin.com/in/sourav-kaintura)
+[![Email](https://img.shields.io/badge/Email-kainturasourav0%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e)](mailto:kainturasourav0@gmail.com)
 
 </div>
 
@@ -167,8 +189,8 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d0d0d&height=120&section=footer&text=Hack+The+Planet+%F0%9F%8C%8D&fontSize=24&fontColor=00ff41&fontAlignY=65&animation=twinkling" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:533483,50:0f3460,100:1a1a2e&height=120&section=footer&text=Open+to+Opportunities+%F0%9F%9A%80&fontSize=22&fontColor=a0c4ff&fontAlignY=65&animation=twinkling" />
 
-> *"The quieter you become, the more you are able to hear."* — Kali Linux motto
+> *"Success doesn't come from what you do occasionally, it comes from what you do consistently."*
 
 </div>
