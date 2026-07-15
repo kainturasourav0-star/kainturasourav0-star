@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=A0C4FF&background=00000000&center=true&vCenter=true&width=700&height=50&lines=Learning+%26+Building+Every+Single+Day+%F0%9F%9A%80;BCA+%40+IGNOU+%7C+2025+%E2%80%94+2028+%F0%9F%8E%93;Python+%7C+JavaScript+%7C+HTML+%7C+CSS+%7C+Linux;Exploring+Cybersecurity+%26+Full+Stack+Dev+%F0%9F%94%90;Open+to+Feedback+%7C+Consistent+%7C+Curious+%F0%9F%94%8D" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=A0C4FF&background=00000000&center=true&vCenter=true&width=700&height=50&lines=Learning+%26+Building+Every+Single+Day+%F0%9F%9A%80;BCA+Student+%7C+Delhi%2C+India+%F0%9F%8E%93;Python+%7C+JavaScript+%7C+HTML+%7C+CSS+%7C+Linux;Exploring+Cybersecurity+%26+Full+Stack+Dev+%F0%9F%94%90;Open+to+Feedback+%7C+Consistent+%7C+Curious+%F0%9F%94%8D" alt="Typing SVG" />
 
 </div>
 
@@ -37,21 +37,7 @@
 
 ## 🎯 Career Objective
 
-> *A beginner in programming and BCA student who is passionate about learning technology and improving coding skills every day. Currently building small projects to gain practical experience, with the goal of growing into a capable full stack developer through hands-on learning and real-world exposure. Also exploring Cybersecurity as a future specialization.*
-
----
-
-## 🎓 Education
-
-<div align="center">
-
-| 🏫 Qualification | 🏛️ Institution | 📅 Year |
-|:-----------------|:---------------|:-------:|
-| **Bachelor of Computer Applications (BCA)** | IGNOU *(Indira Gandhi National Open University)* — Pursuing | 2025 – 2028 |
-| **Class 12th** *(Senior Secondary)* | Sarvodaya Bal Vidyalaya, Delhi | Completed |
-| **Class 10th** *(Secondary)* | Sarvodaya Bal Vidyalaya, Delhi | Completed |
-
-</div>
+> *A BCA student passionate about learning technology and improving coding skills every day. Currently building real-world projects to gain practical experience, with the goal of growing into a capable full stack developer. Also exploring Cybersecurity as a future specialization.*
 
 ---
 
