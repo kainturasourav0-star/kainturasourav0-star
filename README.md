@@ -2,15 +2,11 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a1a2e,100:16213e&height=200&section=header&text=Sourav%20Kaintura&fontSize=60&fontColor=00ff41&fontAlignY=38&desc=Cybersecurity%20Learner%20%7C%20Builder%20%7C%20BCA%20Student&descAlignY=60&descColor=ffffff&animation=fadeIn" />
 
-</div>
-
-<div align="center">
+<br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00FF41&background=00000000&center=true&vCenter=true&multiline=false&random=false&width=700&height=60&lines=%F0%9F%94%90+Learning+Ethical+Hacking+%26+Security;%F0%9F%95%B5%EF%B8%8F+CTF+Player+%7C+Security+Researcher;%F0%9F%92%BB+BCA+Student+%7C+Code+%7C+Break+%7C+Fix+%7C+Repeat;%F0%9F%8C%90+Web+Dev+%7C+Open+Source+Contributor;%F0%9F%9A%80+Building+Cool+Projects+Every+Day" alt="Typing SVG" />
 
-</div>
-
-<div align="center">
+<br/>
 
 [![GitHub followers](https://img.shields.io/github/followers/kainturasourav0-star?label=Followers&style=for-the-badge&color=00ff41&labelColor=0d0d0d&logo=github)](https://github.com/kainturasourav0-star)
 [![Profile Views](https://komarev.com/ghpvc/?username=kainturasourav0-star&style=for-the-badge&color=00ff41&labelColor=0d0d0d&label=Profile+Views)](https://github.com/kainturasourav0-star)
@@ -20,9 +16,13 @@
 
 ---
 
-<img align="right" width="380" src="https://raw.githubusercontent.com/Potential17/Potential17/master/user%20(2).gif" alt="Hacker GIF" />
-
 ## 👾 About Me
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Potential17/Potential17/master/user%20(2).gif" width="340" alt="Hacker at work" />
+</div>
+
+<br/>
 
 ```bash
 ┌──(sourav㉿kaintura)-[~/life]
@@ -46,8 +46,6 @@
   🔍 CTF (Capture The Flag) Challenges
 ```
 
-<br clear="right"/>
-
 ---
 
 ## 🔐 Cybersecurity Arsenal
@@ -62,7 +60,7 @@
 ![Nmap](https://img.shields.io/badge/Nmap-4B8BBE?style=for-the-badge&logo=nmap&logoColor=white)
 ![Metasploit](https://img.shields.io/badge/Metasploit-2596be?style=for-the-badge&logo=metasploit&logoColor=white)
 
-**Topics I'm Exploring**
+**Platforms & Topics**
 
 ![OWASP](https://img.shields.io/badge/OWASP_Top_10-000000?style=for-the-badge&logo=owasp&logoColor=white)
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)
@@ -145,7 +143,7 @@
 
 ```
 [████████░░] 80%  → Complete TryHackMe Beginner Path
-[██████░░░░] 60%  → Master Linux & Bash Scripting  
+[██████░░░░] 60%  → Master Linux & Bash Scripting
 [████░░░░░░] 40%  → Learn Web App Pentesting (OWASP)
 [███░░░░░░░] 30%  → Play CTF Competitions
 [██░░░░░░░░] 20%  → Get CompTIA Security+ certified
