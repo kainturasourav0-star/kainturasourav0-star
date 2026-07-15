@@ -150,3 +150,5 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:533483,30:0f3460,70:16213e,100:1a1a2e&height=150&section=footer&text=Open+to+Opportunities+%F0%9F%9A%80&fontSize=26&fontColor=a0c4ff&fontAlignY=65&animation=twinkling" />
 
 </div>
+
+<!-- Layout verification sync -->
