@@ -27,6 +27,29 @@
 
 </div>
 
+---
+
+<div align="center">
+
+### 🏆 My GitHub Achievements
+
+<a href="https://github.com/kainturasourav0-star?tab=achievements">
+  <img src="https://github.com/Schweinepriester/github-profile-achievements/raw/main/images/pull-shark-bronze.png" width="65px" alt="Pull Shark Bronze" />
+</a>
+<a href="https://github.com/kainturasourav0-star?tab=achievements">
+  <img src="https://github.com/Schweinepriester/github-profile-achievements/raw/main/images/yolo-default.png" width="65px" alt="YOLO" />
+</a>
+<a href="https://github.com/kainturasourav0-star?tab=achievements">
+  <img src="https://github.com/Schweinepriester/github-profile-achievements/raw/main/images/quickdraw-default.png" width="65px" alt="Quickdraw" />
+</a>
+<a href="https://github.com/kainturasourav0-star?tab=achievements">
+  <img src="https://github.com/Schweinepriester/github-profile-achievements/raw/main/images/pair-extraordinaire-default.png" width="65px" alt="Pair Extraordinaire" />
+</a>
+
+</div>
+
+---
+
 <br/>
 
 <div align="center">
