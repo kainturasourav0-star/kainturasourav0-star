@@ -11,6 +11,10 @@
 </div>
 
 <div align="center">
+  <img src="happy-cat-transparent.webp" width="130" alt="Happy Happy Happy Cat" />
+</div>
+
+<div align="center">
 
 <a href="https://github.com/kainturasourav0-star">
   <img src="https://img.shields.io/github/followers/kainturasourav0-star?label=Followers&style=for-the-badge&color=a0c4ff&labelColor=1a1a2e&logo=github" />
