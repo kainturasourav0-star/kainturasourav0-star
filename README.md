@@ -11,7 +11,9 @@
 </div>
 
 <div align="center">
+  <img src="new-cat-transparent.webp" width="130" alt="Dancing Cat Left" />
   <img src="happy-cat-transparent.webp" width="130" alt="Happy Happy Happy Cat" />
+  <img src="new-cat-transparent.webp" width="130" alt="Dancing Cat Right" />
 </div>
 
 <div align="center">
