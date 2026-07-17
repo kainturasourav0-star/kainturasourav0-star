@@ -264,10 +264,12 @@
       <path d="M 518 275 L 552 275 L 535 295 Z" fill="#111827" /> <!-- Black inner accent of V -->
       
       <!-- Lowercase "i" emblem of Invincible on chest -->
-      <!-- Dot of 'i' -->
-      <circle cx="535" cy="283" r="2.5" fill="#fde047" />
-      <!-- Stem of 'i' -->
-      <rect x="533.5" y="288" width="3" height="9" rx="1.5" fill="#fde047" />
+      <g class="suit-logo-i">
+        <!-- Dot of 'i' -->
+        <circle cx="535" cy="283" r="2.5" fill="#fde047" />
+        <!-- Stem of 'i' -->
+        <rect x="533.5" y="288" width="3" height="9" rx="1.5" fill="#fde047" />
+      </g>
 
       <!-- Head Group (Bobbing Animation) -->
       <g class="char-head-group">
@@ -305,14 +307,14 @@
 
       <!-- Left Arm & Hand (Typing) -->
       <g class="arm-l">
-        <path d="M 515 285 Q 535 295 550 304" stroke="url(#hoodie-blue)" stroke-width="8" stroke-linecap="round" fill="none" />
-        <circle cx="550" cy="304" r="5" fill="url(#skin)" />
+        <path class="left-arm-path" d="M 515 285 Q 535 295 550 304" stroke="url(#hoodie-blue)" stroke-width="8" stroke-linecap="round" fill="none" />
+        <circle class="left-fist" cx="550" cy="304" r="5" fill="url(#skin)" />
       </g>
 
       <!-- Right Arm & Hand (Typing) -->
       <g class="arm-r">
-        <path d="M 555 285 Q 570 293 585 304" stroke="url(#hoodie-blue)" stroke-width="8" stroke-linecap="round" fill="none" />
-        <circle cx="585" cy="304" r="5" fill="url(#skin)" />
+        <path class="right-arm-path" d="M 555 285 Q 570 293 585 304" stroke="url(#hoodie-blue)" stroke-width="8" stroke-linecap="round" fill="none" />
+        <circle class="right-fist" cx="585" cy="304" r="5" fill="url(#skin)" />
       </g>
     </g>
 

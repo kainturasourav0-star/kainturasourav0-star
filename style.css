@@ -1320,5 +1320,145 @@ body.party-active .star-slow {
   100% { transform: rotate(10deg) scaleY(1); }
 }
 
+/* ==========================================================================
+   CUSTOM CURSOR & MOUSE FOLLOW STYLES
+   ========================================================================== */
+.custom-cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--neon-cyan, #06b6d4);
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 10001;
+  transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 0 10px var(--neon-cyan);
+}
+
+.custom-cursor-outline {
+  width: 32px;
+  height: 32px;
+  border: 2px solid var(--neon-cyan, #06b6d4);
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 10000;
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.2);
+  transition: width 0.2s ease, height 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, transform 0.08s ease-out;
+}
+
+/* Hide default cursor on desktop devices for premium experience */
+@media (pointer: fine) {
+  body {
+    cursor: none;
+  }
+  a, button, input, select, textarea, [role="button"], .cyber-btn {
+    cursor: none !important;
+  }
+}
+
+/* Hover States */
+body.cursor-hover .custom-cursor-dot {
+  width: 6px;
+  height: 6px;
+  background-color: var(--neon-pink, #f43f5e);
+  box-shadow: 0 0 12px var(--neon-pink);
+}
+
+body.cursor-hover .custom-cursor-outline {
+  width: 48px;
+  height: 48px;
+  border-color: var(--neon-pink, #f43f5e);
+  background-color: rgba(244, 63, 94, 0.08);
+  box-shadow: 0 0 20px rgba(244, 63, 94, 0.3);
+}
+
+/* Active Click States */
+body.cursor-active .custom-cursor-dot {
+  transform: translate(-50%, -50%) scale(0.5);
+}
+body.cursor-active .custom-cursor-outline {
+  transform: translate(-50%, -50%) scale(1.3);
+  background-color: rgba(6, 182, 212, 0.2);
+}
+
+/* Hero Mode (Invincible theme) overrides */
+body.hero-active .custom-cursor-dot {
+  background-color: var(--neon-yellow, #fde047);
+  box-shadow: 0 0 10px var(--neon-yellow);
+}
+
+body.hero-active .custom-cursor-outline {
+  border-color: var(--neon-yellow, #fde047);
+  box-shadow: 0 0 15px rgba(253, 224, 71, 0.2);
+}
+
+body.hero-active.cursor-hover .custom-cursor-dot {
+  background-color: #2563eb; /* Invincible Blue */
+  box-shadow: 0 0 12px #2563eb;
+}
+
+body.hero-active.cursor-hover .custom-cursor-outline {
+  border-color: #2563eb;
+  background-color: rgba(37, 99, 235, 0.08);
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+}
+
+/* Hero Mode Shockwave Ripple */
+.hero-shockwave {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 30px;
+  height: 30px;
+  border: 8px solid var(--neon-yellow, #fde047);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99;
+  opacity: 0;
+  box-shadow: 0 0 40px var(--neon-yellow), inset 0 0 30px var(--neon-yellow);
+}
+
+body.hero-active .hero-shockwave {
+  animation: hero-shockwave-pulse 1.8s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+
+@keyframes hero-shockwave-pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+    border-width: 12px;
+  }
+  30% {
+    opacity: 1;
+    border-width: 8px;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(25);
+    opacity: 0;
+    border-width: 1px;
+  }
+}
+
+/* Invincible logo badge inside title card overlay */
+.invincible-card-logo {
+  animation: logo-spin-in 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  filter: drop-shadow(0 0 10px rgba(253, 224, 71, 0.4));
+}
+
+@keyframes logo-spin-in {
+  0% {
+    transform: scale(0) rotate(-180deg);
+    filter: drop-shadow(0 0 0px transparent);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    filter: drop-shadow(0 0 15px var(--neon-yellow));
+  }
+}
+
 
 

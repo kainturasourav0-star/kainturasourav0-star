@@ -124,9 +124,11 @@
 </div>
 
 <div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=kainturasourav0-star&theme=tokyonight&hide_border=true&background=1a1a2e&ring=a0c4ff&fire=ff6b35&currStreakLabel=a0c4ff&sideLabels=ffffff&dates=888888&border_radius=10)](https://git.io/streak-stats)
-
+  <img src="scroll-stickman-profile.svg" width="45" height="45" alt="Stickman Left" style="vertical-align: middle; margin-right: 15px;" />
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=kainturasourav0-star&theme=tokyonight&hide_border=true&background=1a1a2e&ring=a0c4ff&fire=ff6b35&currStreakLabel=a0c4ff&sideLabels=ffffff&dates=888888&border_radius=10" alt="GitHub Streak" style="vertical-align: middle;" />
+  </a>
+  <img src="scroll-stickman-profile-flipped.svg" width="45" height="45" alt="Stickman Right" style="vertical-align: middle; margin-left: 15px;" />
 </div>
 
 ---

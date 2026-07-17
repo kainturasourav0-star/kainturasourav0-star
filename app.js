@@ -340,6 +340,14 @@ Mission: Building intelligent applications and exploring cybersecurity pipelines
       // Add class to body
       body.classList.add('hero-active');
       
+      // Trigger shockwave pulse from the visualizer card
+      const shockwave = document.querySelector('.hero-shockwave');
+      if (shockwave) {
+        shockwave.style.animation = 'none';
+        shockwave.offsetHeight; /* trigger reflow */
+        shockwave.style.animation = null;
+      }
+      
       // Update Button text
       const btnText = heroBtn.querySelector('.btn-text');
       btnText.innerText = "DEACTIVATE HERO MODE";
@@ -456,4 +464,75 @@ Mission: Building intelligent applications and exploring cybersecurity pipelines
   
   // Initialize position on load
   setTimeout(updateStickmanPosition, 500);
+
+  // ==========================================================================
+  // CUSTOM CURSOR & MOUSE FOLLOW LOGIC
+  // ==========================================================================
+  const cursorDot = document.querySelector('.custom-cursor-dot');
+  const cursorOutline = document.querySelector('.custom-cursor-outline');
+
+  if (cursorDot && cursorOutline) {
+    let mouseX = window.innerWidth / 2;
+    let mouseY = window.innerHeight / 2;
+    let cursorX = mouseX;
+    let cursorY = mouseY;
+
+    // Track mouse coordinates
+    window.addEventListener('mousemove', (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+
+      // Position the dot immediately
+      cursorDot.style.left = `${mouseX}px`;
+      cursorDot.style.top = `${mouseY}px`;
+    });
+
+    // Animate the outline with smooth linear interpolation (lerp)
+    function animateCursor() {
+      // Lerp calculations for outline drag lag (15% speed)
+      cursorX += (mouseX - cursorX) * 0.15;
+      cursorY += (mouseY - cursorY) * 0.15;
+
+      cursorOutline.style.left = `${cursorX}px`;
+      cursorOutline.style.top = `${cursorY}px`;
+
+      requestAnimationFrame(animateCursor);
+    }
+    requestAnimationFrame(animateCursor);
+
+    // Track click state
+    window.addEventListener('mousedown', () => {
+      body.classList.add('cursor-active');
+    });
+    window.addEventListener('mouseup', () => {
+      body.classList.remove('cursor-active');
+    });
+
+    // Handle hovers on interactive elements
+    function addHoverListeners() {
+      const interactiveSelector = 'a, button, input, select, textarea, [role="button"], .cyber-btn, .panel-card, .milestone-list li, .social-icon, .stats-col, .timeline-dot';
+      const interactiveEls = document.querySelectorAll(interactiveSelector);
+      
+      interactiveEls.forEach(el => {
+        // Prevent duplicate listeners
+        if (el.dataset.cursorBound) return;
+        el.dataset.cursorBound = "true";
+
+        el.addEventListener('mouseenter', () => {
+          body.classList.add('cursor-hover');
+        });
+        el.addEventListener('mouseleave', () => {
+          body.classList.remove('cursor-hover');
+        });
+      });
+    }
+
+    addHoverListeners();
+
+    // Re-bind hover listeners when DOM changes (dynamic content)
+    const observer = new MutationObserver(() => {
+      addHoverListeners();
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
 });
