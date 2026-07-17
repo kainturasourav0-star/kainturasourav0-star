@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sourav Kaintura | CSE Developer Dashboard &amp; Portfolio</title>
+  <meta name="description" content="Interactive CSE Developer Portfolio and Dashboard for Sourav Kaintura. Featuring an animated Invincible-themed coding character, a playable CLI terminal, and a learning roadmap.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+  <!-- Dramatic Invincible Title Card Overlay -->
+  <div id="hero-title-card" class="hidden">
+    <div class="blood-splatter"></div>
+    <div class="glitch-container">
+      <h1 class="invincible-title" data-text="INVINCIBLE">INVINCIBLE</h1>
+      <p class="invincible-subtitle">CODER EDITION</p>
+    </div>
+  </div>
+
+  <!-- Background Scanline Screen Effect -->
+  <div class="crt-overlay"></div>
+
+  <!-- App Container -->
+  <div class="app-wrapper">
+    <!-- Top Navigation Header -->
+    <header class="app-header">
+      <div class="logo-area">
+        <span class="system-status-pill active-status"></span>
+        <h1 id="main-title">kaintura_terminal_v1.0.4</h1>
+      </div>
+      <div class="control-actions" style="display: flex; gap: 12px;">
+        <button id="party-toggle-btn" class="cyber-btn shadow-neon-purple">
+          <span class="btn-text">ACTIVATE PARTY MODE</span> <span class="btn-icon">🐱</span>
+        </button>
+        <button id="hero-toggle-btn" class="cyber-btn shadow-neon-blue">
+          <span class="btn-text">ACTIVATE HERO MODE</span> <span class="btn-icon">🦸‍♂️</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Grid Layout -->
+    <main class="dashboard-grid">
+      
+      <!-- Card Section 1: Coder Character Scene -->
+      <section class="card panel-card character-panel">
+        <div class="panel-header">
+          <span class="panel-dot red"></span>
+          <span class="panel-dot yellow"></span>
+          <span class="panel-dot green"></span>
+          <span class="panel-title">visualizer.exe</span>
+        </div>
+        <div class="panel-body character-visualizer-container">
+          <!-- Inline Animated SVG for full styling control -->
+          <svg id="svg-character" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="100%" height="100%">
+            <defs>
+              <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#0b0f19" />
+                <stop offset="50%" stop-color="#111827" />
+                <stop offset="100%" stop-color="#1e1b4b" />
+              </linearGradient>
+              
+              <linearGradient id="panel-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+                <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+              </linearGradient>
+
+              <linearGradient id="hoodie-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#1d4ed8" />
+                <stop offset="100%" stop-color="#1e3a8a" />
+              </linearGradient>
+
+              <linearGradient id="invincible-yellow" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#fde047" />
+                <stop offset="100%" stop-color="#eab308" />
+              </linearGradient>
+
+              <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#ffedd5" />
+                <stop offset="100%" stop-color="#fed7aa" />
+              </linearGradient>
+
+              <linearGradient id="screen-glow" x1="0%" y1="100%" x2="0%" y2="0%">
+                <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.3" />
+                <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+              </linearGradient>
+
+              <linearGradient id="lamp-glow" x1="50%" y1="0%" x2="50%" y2="100%">
+                <stop offset="0%" stop-color="#fef08a" stop-opacity="0.25" />
+                <stop offset="100%" stop-color="#fef08a" stop-opacity="0" />
+              </linearGradient>
+
+              <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+                <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.3" />
+              </pattern>
+
+              <!-- Hero Aura Filter for flight mode -->
+              <filter id="hero-aura" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="6" result="blur" />
+                <feMerge>
+                  <feMergeNode in="blur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+
+              <!-- Hologram Projection Gradient -->
+              <linearGradient id="hologram-glow" x1="0%" y1="100%" x2="0%" y2="0%">
+                <stop offset="0%" stop-color="#a855f7" stop-opacity="0.6" />
+                <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+
+            <!-- Background Grid inside SVG -->
+            <rect width="800" height="420" fill="url(#grid)" class="svg-inner-grid" />
+
+            <!-- Parallax Starfield for Hero Mode -->
+            <g class="hero-stars">
+              <circle cx="100" cy="80" r="1.5" class="star star-fast" />
+              <circle cx="250" cy="180" r="1" class="star star-medium" />
+              <circle cx="400" cy="50" r="2" class="star star-slow" />
+              <circle cx="550" cy="120" r="1.5" class="star star-fast" />
+              <circle cx="700" cy="220" r="1" class="star star-medium" />
+              <circle cx="150" cy="300" r="2.5" class="star star-slow" />
+              <circle cx="350" cy="280" r="1" class="star star-medium" />
+              <circle cx="600" cy="320" r="1.5" class="star star-fast" />
+            </g>
+
+            <!-- Left Terminal Box Panel (Displays profile details) -->
+            <g id="info-panel" transform="translate(40, 40)">
+              <text x="10" y="30" class="font-title svg-name-text" font-size="28">SOURAV KAINTURA</text>
+              <text x="10" y="52" class="font-subtitle svg-sub-text" font-size="14">Aspiring CSE | Learner &amp; Builder</text>
+              <circle cx="16" cy="74" r="5" fill="#10b981" class="live-dot" />
+              <text x="28" y="78" font-family="'Outfit', sans-serif" font-weight="600" font-size="12" fill="#10b981" class="status-indicator-text">Building the Future...</text>
+
+              <rect x="10" y="100" width="350" height="240" rx="8" fill="#030712" stroke="#334155" stroke-width="1" />
+              <circle cx="30" cy="115" r="4.5" fill="#ef4444" />
+              <circle cx="44" cy="115" r="4.5" fill="#f59e0b" />
+              <circle cx="58" cy="115" r="4.5" fill="#10b981" />
+              <text x="175" y="119" font-family="'Fira Code', monospace" font-size="10" fill="#475569" text-anchor="middle">bash - custom_profile.sh</text>
+
+              <g transform="translate(25, 145)">
+                <text x="0" y="0" class="font-code-header">kaintura@cse:~$</text>
+                <text x="100" y="0" class="font-code" fill="#f8fafc">cat skills.json</text>
+                
+                <text x="0" y="20" class="font-code" fill="#64748b">{</text>
+                <text x="15" y="38" class="font-code">"core": <tspan fill="#fde047">"Data Structures &amp; Algos"</tspan>,</text>
+                <text x="15" y="54" class="font-code">"languages": [<tspan fill="#38bdf8">"Python"</tspan>, <tspan fill="#38bdf8">"JS"</tspan>, <tspan fill="#38bdf8">"HTML/CSS"</tspan>],</text>
+                <text x="15" y="70" class="font-code">"systems": [<tspan fill="#a7f3d0">"Linux/Bash"</tspan>, <tspan fill="#a7f3d0">"Git/GitHub"</tspan>],</text>
+                <text x="15" y="86" class="font-code">"curiosity": <tspan fill="#c084fc">"Cybersecurity &amp; AI"</tspan></text>
+                <text x="0" y="104" class="font-code" fill="#64748b">}</text>
+
+                <text x="0" y="130" class="font-code-header">kaintura@cse:~$</text>
+                <text x="100" y="130" class="font-code" fill="#f8fafc">node goal.js</text>
+                <text x="0" y="152" class="font-code" fill="#fde047">> Consistent daily practice = Success!</text>
+                <text x="0" y="172" class="font-code-header">kaintura@cse:~$ <tspan fill="#38bdf8" class="live-dot">_</tspan></text>
+              </g>
+            </g>
+
+            <!-- Right Scene (The coder desk / superhero transformation area) -->
+            <g id="animated-scene">
+              <!-- Desk Surface Shadow -->
+              <ellipse cx="610" cy="335" rx="140" ry="12" fill="#020617" opacity="0.6" class="furniture" />
+
+              <!-- Ergonomic Chair -->
+              <g class="furniture chair-group">
+                <path d="M 505 350 L 525 350 L 520 290 L 490 290 Z" fill="#1e293b" stroke="#0f172a" stroke-width="1.5" />
+                <rect x="495" y="270" width="30" height="25" rx="3" fill="#334155" />
+                <rect x="480" y="200" width="20" height="80" rx="4" fill="#1e293b" transform="rotate(8 480 200)" />
+                <path d="M 510 345 L 485 385 M 510 345 L 535 385" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+                <circle cx="485" cy="385" r="4" fill="#0f172a" />
+                <circle cx="535" cy="385" r="4" fill="#0f172a" />
+              </g>
+
+              <!-- Desk -->
+              <g class="furniture desk-group">
+                <rect x="460" y="320" width="260" height="15" rx="3" fill="#334155" stroke="#1e293b" stroke-width="1" />
+                <rect x="480" y="335" width="12" height="60" fill="#1e293b" />
+                <rect x="688" y="335" width="12" height="60" fill="#1e293b" />
+              </g>
+              
+              <!-- Screen Glow Light cone -->
+              <polygon points="610,310 520,230 520,300 600,310" fill="url(#screen-glow)" opacity="0.75" class="glow-overlay visual-work-env" />
+
+              <!-- Coffee Mug -->
+              <g class="visual-work-env coffee-mug-group">
+                <rect x="668" y="300" width="10" height="15" rx="1" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1" />
+                <path d="M 678 303 Q 682 307 678 311" stroke="#cbd5e1" stroke-width="1.5" fill="none" />
+                <path d="M 670 295 Q 672 290 670 285" stroke="#94a3b8" stroke-width="1" fill="none" stroke-linecap="round" class="steam-path" />
+                <path d="M 675 295 Q 677 289 674 283" stroke="#94a3b8" stroke-width="1" fill="none" stroke-linecap="round" class="steam-path" style="animation-delay: 1.2s;" />
+              </g>
+
+              <!-- Desk Lamp -->
+              <g class="visual-work-env lamp-group">
+                <path d="M 705 320 C 705 280, 680 250, 675 240" stroke="#475569" stroke-width="4" stroke-linecap="round" fill="none" />
+                <path d="M 662 235 L 682 245 L 676 254 L 656 244 Z" fill="#ef4444" stroke="#b91c1c" stroke-width="1" />
+                <polygon points="656,244 676,254 625,320 575,320" fill="url(#lamp-glow)" opacity="0.7" />
+              </g>
+
+              <!-- Laptop -->
+              <g class="visual-work-env laptop-group">
+                <polygon points="565,318 630,318 640,311 580,311" fill="#475569" stroke="#1e293b" stroke-width="1" />
+                <line x1="578" y1="316" x2="628" y2="316" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="2,2" />
+                <polygon points="620,311 635,311 650,250 635,250" fill="#334155" stroke="#1e293b" stroke-width="1" />
+                <rect x="628" y="252" width="18" height="57" fill="#020617" transform="skewY(-10) rotate(-5)" />
+                <g transform="translate(630, 275)" opacity="0.8">
+                  <g class="scrolling-code-1">
+                    <rect x="2" y="-12" width="10" height="2" fill="#10b981" />
+                    <rect x="2" y="-8" width="6" height="2" fill="#38bdf8" />
+                  </g>
+                  <g class="scrolling-code-2">
+                    <rect x="2" y="-2" width="12" height="2" fill="#fde047" />
+                    <rect x="2" y="2" width="8" height="2" fill="#10b981" />
+                  </g>
+                  <g class="scrolling-code-3">
+                    <rect x="2" y="8" width="5" height="2" fill="#38bdf8" />
+                    <rect x="2" y="12" width="11" height="2" fill="#10b981" />
+                  </g>
+                </g>
+              </g>
+
+              <!-- Superhero / Coder Character Character Mark Group -->
+              <g id="character-mark-group" class="coder-mode">
+                <!-- Golden Aura ring for Hero mode -->
+                <ellipse cx="540" cy="245" rx="55" ry="85" fill="none" stroke="#fde047" stroke-width="2.5" stroke-opacity="0" class="hero-auraring" />
+                
+                <!-- Back Hoodie part -->
+                <path d="M 505 275 Q 520 250 535 250 Q 550 250 565 275 Z" fill="#1d4ed8" class="hoodie-back" />
+                
+                <!-- Torso / Hoodie -->
+                <path d="M 505 275 L 565 275 L 555 320 L 515 320 Z" fill="url(#hoodie-blue)" class="suit-torso" />
+                <!-- Yellow "V" chest highlight (Invincible costume theme) -->
+                <path d="M 510 275 L 560 275 L 535 305 Z" fill="url(#invincible-yellow)" class="suit-chest-v" />
+                <path d="M 518 275 L 552 275 L 535 295 Z" fill="#111827" class="suit-chest-black" />
+                
+                <!-- Lowercase "i" emblem of Invincible on chest -->
+                <g class="suit-logo-i">
+                  <circle cx="535" cy="283" r="2.5" fill="#fde047" />
+                  <rect x="533.5" y="288" width="3" height="9" rx="1.5" fill="#fde047" />
+                </g>
+
+                <!-- Head Group (Bobbing Animation) -->
+                <g class="char-head-group">
+                  <rect x="530" y="218" width="20" height="15" fill="url(#skin)" class="char-neck" />
+                  <path d="M 530 230 Q 540 235 550 230" stroke="#fdba74" stroke-width="1.5" fill="none" />
+                  <circle cx="540" cy="198" r="21" fill="url(#skin)" class="char-face" />
+                  
+                  <!-- Fluffy Black Hair (Mark Grayson style) -->
+                  <path d="M 518 198 C 516 180, 526 172, 540 172 C 555 172, 564 182, 562 198 C 556 194, 552 196, 545 192 C 538 196, 532 192, 518 198 Z" fill="#0f172a" class="char-hair" />
+                  <path d="M 522 186 Q 528 192 534 186 M 542 182 Q 546 190 552 184" stroke="#0f172a" stroke-width="3" stroke-linecap="round" fill="none" />
+                  
+                  <!-- Eyes / Blinking glasses -->
+                  <g class="char-eye">
+                    <polygon points="523,195 536,192 537,201 526,203" fill="#38bdf8" stroke="#1e293b" stroke-width="1.5" stroke-linejoin="round" />
+                    <polygon points="543,192 556,195 553,203 542,201" fill="#38bdf8" stroke="#1e293b" stroke-width="1.5" stroke-linejoin="round" />
+                    <line x1="526" y1="197" x2="532" y2="195" stroke="#ffffff" stroke-width="1" stroke-linecap="round" />
+                    <line x1="546" y1="195" x2="551" y2="197" stroke="#ffffff" stroke-width="1" stroke-linecap="round" />
+                  </g>
+
+                  <!-- Smile / Nose -->
+                  <path d="M 538 206 Q 540 208 542 206" stroke="#e2e8f0" stroke-width="1.5" fill="none" />
+                  <path d="M 534 211 Q 540 216 546 211" stroke="#e11d48" stroke-width="1.5" fill="none" stroke-linecap="round" class="char-smile" />
+                  
+                  <!-- Hoodie Hood Overlay / Mask boundary -->
+                  <path d="M 518 210 C 512 210, 514 185, 528 178 C 532 176, 548 176, 552 178 C 566 185, 568 210, 562 210" stroke="#1d4ed8" stroke-width="3.5" fill="none" class="hoodie-front" />
+                </g>
+
+                <!-- Left Arm (Typing or Hero punch) -->
+                <g class="arm-l">
+                  <path d="M 515 285 Q 535 295 550 304" stroke="url(#hoodie-blue)" stroke-width="8" stroke-linecap="round" fill="none" class="left-arm-path" />
+                  <circle cx="550" cy="304" r="5" fill="url(#skin)" class="left-fist" />
+                </g>
+
+                <!-- Right Arm (Typing or Hero punch) -->
+                <g class="arm-r">
+                  <path d="M 555 285 Q 570 293 585 304" stroke="url(#hoodie-blue)" stroke-width="8" stroke-linecap="round" fill="none" class="right-arm-path" />
+                  <circle cx="585" cy="304" r="5" fill="url(#skin)" class="right-fist" />
+                </g>
+              </g>
+
+              <!-- Holographic 3D Dancing Cat Projection -->
+              <g id="hologram-cat-group" style="display: none;">
+                <!-- Projection light cone -->
+                <polygon points="610,310 490,120 680,120 620,310" fill="url(#hologram-glow)" opacity="0.45" class="hologram-cone" />
+                <!-- Grid scanning horizontal lines inside hologram -->
+                <line x1="565" y1="180" x2="628" y2="180" stroke="#c084fc" stroke-width="0.75" stroke-dasharray="2,2" opacity="0.4" class="hologram-line" />
+                <line x1="540" y1="220" x2="618" y2="220" stroke="#c084fc" stroke-width="0.75" stroke-dasharray="2,2" opacity="0.4" class="hologram-line" />
+                <!-- Dancing Cat transparent animated WebP -->
+                <image href="happy-cat-transparent.webp" x="495" y="110" width="170" height="170" class="hologram-cat" />
+              </g>
+
+              <!-- FLOATING SKILLS & SUPERHERO BADGES -->
+              <g class="badges-group">
+                <!-- Python Badge -->
+                <g class="badge-float-1" transform="translate(470, 110)">
+                  <circle cx="0" cy="0" r="16" fill="url(#panel-bg)" stroke="#38bdf8" stroke-width="1.5" filter="drop-shadow(0 0 4px rgba(56, 189, 248, 0.4))" />
+                  <path d="M -8 -4 L 0 -4 A 4 4 0 0 1 4 0 L 4 4 A 2 2 0 0 0 6 6 L 8 6" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" fill="none" />
+                  <path d="M 8 4 L 0 4 A 4 4 0 0 1 -4 0 L -4 -4 A 2 2 0 0 0 -6 -6 L -8 -6" stroke="#fde047" stroke-width="2.2" stroke-linecap="round" fill="none" />
+                </g>
+
+                <!-- JS Badge -->
+                <g class="badge-float-2" transform="translate(730, 130)">
+                  <circle cx="0" cy="0" r="16" fill="url(#panel-bg)" stroke="#fde047" stroke-width="1.5" filter="drop-shadow(0 0 4px rgba(253, 224, 71, 0.4))" />
+                  <rect x="-8" y="-8" width="16" height="16" rx="2" fill="#fde047" />
+                  <text x="3" y="6" font-family="'Outfit', sans-serif" font-weight="800" font-size="11" fill="#000000" text-anchor="middle">JS</text>
+                </g>
+
+                <!-- Linux Badge -->
+                <g class="badge-float-3" transform="translate(510, 60)">
+                  <circle cx="0" cy="0" r="16" fill="url(#panel-bg)" stroke="#a7f3d0" stroke-width="1.5" filter="drop-shadow(0 0 4px rgba(167, 243, 208, 0.4))" />
+                  <ellipse cx="0" cy="1" rx="6" ry="8" fill="#f8fafc" />
+                  <path d="M -7 5 Q 0 -6 7 5 Q 4 9 -4 9 Z" fill="#0f172a" />
+                  <ellipse cx="0" cy="-2" rx="4" ry="4" fill="#0f172a" />
+                  <polygon points="-2,-1 2,-1 0,2" fill="#f97316" />
+                </g>
+
+                <!-- DSA Badge -->
+                <g class="badge-float-4" transform="translate(690, 70)">
+                  <circle cx="0" cy="0" r="16" fill="url(#panel-bg)" stroke="#f472b6" stroke-width="1.5" filter="drop-shadow(0 0 4px rgba(244, 114, 182, 0.4))" />
+                  <line x1="0" y1="-7" x2="-5" y2="2" stroke="#f472b6" stroke-width="1.5" />
+                  <line x1="0" y1="-7" x2="5" y2="2" stroke="#f472b6" stroke-width="1.5" />
+                  <circle cx="0" cy="-7" r="3" fill="#f8fafc" stroke="#f472b6" stroke-width="1" />
+                  <circle cx="-5" cy="2" r="3" fill="#f8fafc" stroke="#f472b6" stroke-width="1" />
+                  <circle cx="5" cy="2" r="3" fill="#f8fafc" stroke="#f472b6" stroke-width="1" />
+                </g>
+
+                <!-- Invincible Mask Badge -->
+                <g class="badge-float-inv" transform="translate(605, 45)">
+                  <circle cx="0" cy="0" r="20" fill="url(#panel-bg)" stroke="#eab308" stroke-width="2" filter="drop-shadow(0 0 6px #eab308)" />
+                  <path d="M -10 -8 Q -10 -15 0 -15 Q 10 -15 10 -8 Q 12 5 0 14 Q -12 5 -10 -8" fill="#fde047" stroke="#0f172a" stroke-width="1" />
+                  <path d="M -9 -7 C -9 2, -6 7, 0 13 C -8 7, -10 2, -9 -7 Z" fill="#2563eb" />
+                  <path d="M 9 -7 C 9 2, 6 7, 0 13 C 8 7, 10 2, 9 -7 Z" fill="#2563eb" />
+                  <polygon points="-7,-4 -1,-6 -2,-1 -6,-1" fill="#38bdf8" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round" />
+                  <polygon points="7,-4 1,-6 2,-1 6,-1" fill="#38bdf8" stroke="#0f172a" stroke-width="1.5" stroke-linejoin="round" />
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <!-- Card Section 2: Interactive Terminal Console -->
+      <section class="card panel-card terminal-panel">
+        <div class="panel-header">
+          <span class="panel-dot red"></span>
+          <span class="panel-dot yellow"></span>
+          <span class="panel-dot green"></span>
+          <span class="panel-title">console.sh</span>
+        </div>
+        <div class="panel-body terminal-body-container" id="terminal-screen">
+          <canvas id="matrix-canvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; opacity: 0; transition: opacity 0.5s ease; z-index: 0;"></canvas>
+          <div class="terminal-output" id="terminal-output-log" style="position: relative; z-index: 1;">
+            <div class="line welcome-line">=============================================================</div>
+            <div class="line welcome-line">Welcome to Sourav's CSE Developer Console [v1.0.4]</div>
+            <div class="line welcome-line">Type <span class="highlight-cyan">help</span> to view available commands.</div>
+            <div class="line welcome-line">=============================================================</div>
+          </div>
+          <div class="terminal-input-line" style="position: relative; z-index: 1;">
+            <span class="prompt">guest@sourav:~$</span>
+            <input type="text" id="terminal-input" autofocus autocomplete="off" spellcheck="false" />
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Bottom Tracker: CSE Learning Roadmap -->
+    <section class="card panel-card roadmap-panel">
+      <div class="panel-header">
+        <span class="panel-title">📚 CSE Learning Path &amp; Milestones</span>
+      </div>
+      <div class="panel-body roadmap-grid">
+        
+        <!-- Track 1: DSA -->
+        <div class="roadmap-card completed">
+          <div class="track-header">
+            <h3>Data Structures &amp; Algos (DSA)</h3>
+            <span class="badge badge-done">Completed</span>
+          </div>
+          <div class="progress-bar-container">
+            <div class="progress-bar-fill" style="width: 100%;"></div>
+          </div>
+          <ul class="milestone-list">
+            <li class="done">Arrays &amp; Linked Lists</li>
+            <li class="done">Stacks &amp; Queues</li>
+            <li class="done">Trees &amp; Binary Search</li>
+            <li class="done">Time/Space Complexity (Big O)</li>
+          </ul>
+        </div>
+
+        <!-- Track 2: OOP & Languages -->
+        <div class="roadmap-card learning">
+          <div class="track-header">
+            <h3>Object-Oriented Programming</h3>
+            <span class="badge badge-doing">Learning</span>
+          </div>
+          <div class="progress-bar-container">
+            <div class="progress-bar-fill animated-bar" style="width: 65%;"></div>
+          </div>
+          <ul class="milestone-list">
+            <li class="done">Classes, Objects, Constructors</li>
+            <li class="done">Encapsulation &amp; Inheritance</li>
+            <li class="doing">Polymorphism &amp; Abstraction</li>
+            <li class="todo">Design Patterns</li>
+          </ul>
+        </div>
+
+        <!-- Track 3: Full Stack Web Dev -->
+        <div class="roadmap-card learning">
+          <div class="track-header">
+            <h3>Full Stack Development</h3>
+            <span class="badge badge-doing">Learning</span>
+          </div>
+          <div class="progress-bar-container">
+            <div class="progress-bar-fill animated-bar" style="width: 50%;"></div>
+          </div>
+          <ul class="milestone-list">
+            <li class="done">Responsive HTML5 &amp; CSS3</li>
+            <li class="doing">JavaScript ES6+ &amp; DOM APIs</li>
+            <li class="todo">NodeJS &amp; Express Web Servers</li>
+            <li class="todo">Database Systems (SQL &amp; DBMS)</li>
+          </ul>
+        </div>
+
+        <!-- Track 4: Linux & Security -->
+        <div class="roadmap-card todo">
+          <div class="track-header">
+            <h3>Linux &amp; Cybersecurity</h3>
+            <span class="badge badge-todo">Queued</span>
+          </div>
+          <div class="progress-bar-container">
+            <div class="progress-bar-fill" style="width: 20%;"></div>
+          </div>
+          <ul class="milestone-list">
+            <li class="done">Linux File System &amp; Bash Basics</li>
+            <li class="todo">Networking &amp; Protocol Security</li>
+            <li class="todo">Vulnerability Auditing</li>
+            <li class="todo">Ethical Hacking Basics</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Page Footer -->
+    <footer class="app-footer">
+      <p>Designed for <a href="https://github.com/kainturasourav0-star" target="_blank">kainturasourav0-star</a>. Built with pure HTML, CSS, and Vanilla JavaScript.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

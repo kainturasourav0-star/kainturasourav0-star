@@ -35,6 +35,28 @@
 
 ---
 
+## 🖥️ Interactive Developer Portfolio
+
+<div align="center">
+
+> **A fully interactive, animated developer dashboard — built with pure HTML, CSS & Vanilla JS.**
+>
+> Features a live CLI terminal, Invincible-themed coder character, Hero Mode transformation, Party Mode with holographic dancing cat, Matrix rain effects, and a CSE learning roadmap.
+
+[![🚀 Launch Portfolio](https://img.shields.io/badge/🚀%20Launch%20Interactive%20Portfolio-533483?style=for-the-badge&labelColor=0f3460&color=533483)](https://kainturasourav0-star.github.io/kainturasourav0-star/)
+
+| ⚡ Feature | 🎯 Description |
+|:-----------|:--------------|
+| 🖥️ **Live CLI Terminal** | Type `help`, `about`, `skills`, `projects`, `hack` and more |
+| 🦸 **Hero Mode** | Triggers Invincible-themed transformation with cinematic overlay |
+| 🐱 **Party Mode** | Holographic dancing cat hologram with rainbow Matrix rain |
+| 📚 **Learning Roadmap** | Live progress tracker for DSA, OOP, Web Dev & Cybersecurity |
+| ✨ **Premium Animations** | Smooth micro-animations, glow effects & hover transitions |
+
+</div>
+
+---
+
 ## 🛠️ Technical Skills
 
 <div align="center">
