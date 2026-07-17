@@ -1211,4 +1211,114 @@ body.party-active .star-slow {
   filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.6));
 }
 
+/* ==========================================================================
+   SCROLLING STICKMAN ANIMATION (Alan Becker Style)
+   ========================================================================== */
+#scroll-stickman {
+  position: fixed;
+  z-index: 10000;
+  pointer-events: none;
+  width: 50px;
+  height: 60px;
+  transition: top 0.7s cubic-bezier(0.25, 1, 0.5, 1), left 0.7s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.4s ease, transform 0.4s ease;
+  opacity: 0; /* Hidden initially, fades in on scroll */
+  filter: drop-shadow(0 0 8px rgba(249, 115, 22, 0.6));
+}
+
+/* Base stickman color (Neon Orange matching "The Second Coming" from Alan Becker) */
+#scroll-stickman .stickman-part {
+  stroke: #ff7849;
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+#scroll-stickman .stickman-head {
+  fill: none;
+  stroke: #ff7849;
+  stroke-width: 3.5;
+}
+
+/* IDLE ANIMATION */
+#scroll-stickman.idle .stickman-head {
+  animation: stick-head-idle 2s ease-in-out infinite;
+}
+#scroll-stickman.idle .stickman-spine {
+  animation: stick-spine-idle 2s ease-in-out infinite;
+  transform-origin: 25px 17px;
+}
+
+@keyframes stick-head-idle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(1.5px); }
+}
+@keyframes stick-spine-idle {
+  0%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(0.95); }
+}
+
+/* RUNNING ANIMATION */
+#scroll-stickman.running .stickman-leg-l {
+  animation: stick-leg-l-run 0.6s linear infinite;
+  transform-origin: 25px 32px;
+}
+#scroll-stickman.running .stickman-leg-r {
+  animation: stick-leg-r-run 0.6s linear infinite;
+  transform-origin: 25px 32px;
+}
+#scroll-stickman.running .stickman-arm-l {
+  animation: stick-arm-l-run 0.6s linear infinite;
+  transform-origin: 25px 20px;
+}
+#scroll-stickman.running .stickman-arm-r {
+  animation: stick-arm-r-run 0.6s linear infinite;
+  transform-origin: 25px 20px;
+}
+
+@keyframes stick-leg-l-run {
+  0%, 100% { transform: rotate(-35deg); }
+  50% { transform: rotate(45deg); }
+}
+@keyframes stick-leg-r-run {
+  0%, 100% { transform: rotate(45deg); }
+  50% { transform: rotate(-35deg); }
+}
+@keyframes stick-arm-l-run {
+  0%, 100% { transform: rotate(40deg); }
+  50% { transform: rotate(-40deg); }
+}
+@keyframes stick-arm-r-run {
+  0%, 100% { transform: rotate(-40deg); }
+  50% { transform: rotate(40deg); }
+}
+
+/* JUMPING / CLIMBING ANIMATION */
+#scroll-stickman.jumping .stickman-leg-l {
+  animation: stick-jump-leg-l 0.4s ease-out infinite alternate;
+  transform-origin: 25px 32px;
+}
+#scroll-stickman.jumping .stickman-leg-r {
+  animation: stick-jump-leg-r 0.4s ease-out infinite alternate;
+  transform-origin: 25px 32px;
+}
+#scroll-stickman.jumping .stickman-arm-l {
+  transform: rotate(-110deg);
+  transform-origin: 25px 20px;
+}
+#scroll-stickman.jumping .stickman-arm-r {
+  transform: rotate(-130deg);
+  transform-origin: 25px 20px;
+}
+
+@keyframes stick-jump-leg-l {
+  0% { transform: rotate(30deg) scaleY(0.8); }
+  100% { transform: rotate(-10deg) scaleY(1); }
+}
+@keyframes stick-jump-leg-r {
+  0% { transform: rotate(-40deg) scaleY(0.7); }
+  100% { transform: rotate(10deg) scaleY(1); }
+}
+
+
 

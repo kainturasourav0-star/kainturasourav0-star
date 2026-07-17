@@ -41,7 +41,7 @@
 
 ---
 
-## 🖥️ Interactive Developer Portfolio
+## 🖥️ Interactive Developer Portfolio <img src="scroll-stickman-profile.svg" width="35" height="35" align="right" alt="Running Stickman" />
 
 <div align="center">
 
@@ -118,8 +118,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=kainturasourav0-star&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a1a2e&title_color=a0c4ff&icon_color=a0c4ff&text_color=ffffff&border_radius=10" height="175"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kainturasourav0-star&layout=compact&hide_border=true&bg_color=1a1a2e&title_color=a0c4ff&text_color=ffffff&border_radius=10" height="175"/>
+<img src="https://github-stats-extended.vercel.app/api?username=kainturasourav0-star&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a1a2e&title_color=a0c4ff&icon_color=a0c4ff&text_color=ffffff&border_radius=10" height="175"/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs?username=kainturasourav0-star&layout=compact&hide_border=true&bg_color=1a1a2e&title_color=a0c4ff&text_color=ffffff&border_radius=10" height="175"/>
 
 </div>
 

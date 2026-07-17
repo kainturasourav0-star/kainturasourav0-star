@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <style>
+    .stickman-part {
+      stroke: #ff7849;
+      stroke-width: 5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .stickman-head {
+      fill: none;
+      stroke: #ff7849;
+      stroke-width: 5;
+      animation: head-move 0.8s ease-in-out infinite alternate;
+    }
+    .stickman-spine {
+      animation: spine-move 0.8s ease-in-out infinite alternate;
+      transform-origin: 50px 30px;
+    }
+    .stickman-leg-l {
+      animation: run-l 0.6s linear infinite;
+      transform-origin: 50px 60px;
+    }
+    .stickman-leg-r {
+      animation: run-r 0.6s linear infinite;
+      transform-origin: 50px 60px;
+    }
+    .stickman-arm-l {
+      animation: arm-l 0.6s linear infinite;
+      transform-origin: 50px 38px;
+    }
+    .stickman-arm-r {
+      animation: arm-r 0.6s linear infinite;
+      transform-origin: 50px 38px;
+    }
+    @keyframes head-move {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(3px); }
+    }
+    @keyframes run-l {
+      0%, 100% { transform: rotate(-35deg); }
+      50% { transform: rotate(40deg); }
+    }
+    @keyframes run-r {
+      0%, 100% { transform: rotate(40deg); }
+      50% { transform: rotate(-35deg); }
+    }
+    @keyframes arm-l {
+      0%, 100% { transform: rotate(30deg); }
+      50% { transform: rotate(-40deg); }
+    }
+    @keyframes arm-r {
+      0%, 100% { transform: rotate(-40deg); }
+      50% { transform: rotate(30deg); }
+    }
+  </style>
+  <g transform="translate(0, 5)">
+    <!-- Head -->
+    <circle cx="50" cy="20" r="10" class="stickman-head" />
+    <!-- Spine -->
+    <line x1="50" y1="30" x2="50" y2="60" class="stickman-part stickman-spine" />
+    <!-- Left Arm -->
+    <line x1="50" y1="38" x2="30" y2="52" class="stickman-part stickman-arm-l" />
+    <!-- Right Arm -->
+    <line x1="50" y1="38" x2="70" y2="52" class="stickman-part stickman-arm-r" />
+    <!-- Left Leg -->
+    <line x1="50" y1="60" x2="32" y2="88" class="stickman-part stickman-leg-l" />
+    <!-- Right Leg -->
+    <line x1="50" y1="60" x2="68" y2="88" class="stickman-part stickman-leg-r" />
+  </g>
+</svg>

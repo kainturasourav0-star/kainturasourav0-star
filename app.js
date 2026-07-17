@@ -372,4 +372,88 @@ Mission: Building intelligent applications and exploring cybersecurity pipelines
       }, 800);
     }, 2800);
   }
+
+  // ==========================================================================
+  // SCROLLING STICKMAN LOGIC (Alan Becker Style)
+  // ==========================================================================
+  const stickman = document.getElementById('scroll-stickman');
+  const panels = [
+    { el: document.querySelector('.character-panel'), name: 'character' },
+    { el: document.querySelector('.terminal-panel'), name: 'terminal' },
+    { el: document.querySelector('.roadmap-panel'), name: 'roadmap' }
+  ];
+
+  let currentPanel = null;
+  let scrollTimeout = null;
+
+  function updateStickmanPosition() {
+    if (!stickman) return;
+    
+    // Find which panel is closest to the middle of the viewport
+    let activePanel = null;
+    let minDistance = Infinity;
+    const viewportHeight = window.innerHeight;
+
+    panels.forEach(panel => {
+      if (!panel.el) return;
+      const rect = panel.el.getBoundingClientRect();
+      const panelCenter = rect.top + rect.height / 2;
+      const distance = Math.abs(viewportHeight / 2 - panelCenter);
+      
+      if (distance < minDistance) {
+        minDistance = distance;
+        activePanel = panel;
+      }
+    });
+
+    if (activePanel && activePanel !== currentPanel) {
+      const rect = activePanel.el.getBoundingClientRect();
+      
+      // Calculate target coordinates relative to the screen (fixed position)
+      let targetLeft = 0;
+      let targetTop = 0;
+      let scaleX = 1;
+
+      if (activePanel.name === 'character') {
+        targetLeft = rect.left - 35; // hang slightly off left
+        targetTop = rect.top + 50;
+        scaleX = 1; // face right
+      } else if (activePanel.name === 'terminal') {
+        targetLeft = rect.right - 15; // hang slightly off right
+        targetTop = rect.top + 50;
+        scaleX = -1; // face left
+      } else {
+        // roadmap (horizontal bar)
+        targetLeft = rect.left + 50; // sit inside left
+        targetTop = rect.top - 50; // sit on top of the bar
+        scaleX = 1; // face right
+      }
+
+      // Constrain position within screen bounds
+      targetLeft = Math.max(10, Math.min(window.innerWidth - 60, targetLeft));
+      targetTop = Math.max(10, Math.min(window.innerHeight - 70, targetTop));
+
+      // Make stickman run or jump to the next option
+      stickman.className = 'jumping';
+      stickman.style.opacity = '1';
+      stickman.style.left = `${targetLeft}px`;
+      stickman.style.top = `${targetTop}px`;
+      stickman.style.transform = `scaleX(${scaleX})`;
+
+      currentPanel = activePanel;
+
+      // Clear running state and transition to idle once it arrives
+      if (scrollTimeout) clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
+        stickman.className = 'idle';
+      }, 700); // matches the 0.7s transition in CSS
+    }
+  }
+
+  // Monitor scroll and resize events
+  window.addEventListener('scroll', updateStickmanPosition);
+  window.addEventListener('resize', updateStickmanPosition);
+  
+  // Initialize position on load
+  setTimeout(updateStickmanPosition, 500);
 });
